@@ -1,0 +1,280 @@
+body{
+  font-family: 'robotoregular', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+header{
+  /* background-image: url("../img/header-bg.jpeg"); */
+  background-size: cover;
+  background-image: linear-gradient(90deg, rgba(22,224,105,1.0), rgba(17,185,206,0.85) 75%), url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 7%;
+  height: 82vh;
+}
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto 8%;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar{
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto 3%;
+  padding: 30px 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.nav{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+}
+
+.nav>li{
+  margin-left: 40px;
+}
+
+.nav>li>a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav_btn{
+  background-color: #5528FF;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #fff;
+  align-items: center;
+  border: none;
+  font-weight: 700;
+}
+
+.logo{
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo_img{
+  display: block;
+  background-image: url(../img/logo.svg);
+  margin-right: 20px;
+  color: #fff;
+}
+
+.logo_text{
+  font-size: 24px;
+  color: #202020;
+}
+
+.title-main{
+  font-size: 56px;
+  color: #202020;
+  font-weight: 700;
+}
+
+.text-main{
+  font-size: 32px;
+  line-height: 1.5;
+  color: #4f4f4f;
+}
+
+/* .button{
+  background-color: #5528FF;
+  border-radius: 10px;
+  padding: 10px 45px;
+  color: #fff;
+  align-items: center;
+  border: none;
+  font-size: 24px;
+} */
+
+.header__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__text{
+  width: 50%;
+  color: #fff;
+}
+
+.header__text h1{
+  font-size: 90px;
+  font-family: 'festuscorrect';
+  line-height: 0.3;
+  /* color: #eb7847; */
+}
+
+.header__text h2{
+  font-size: 25px;
+  float: right;
+  margin-right: 43px;
+}
+
+.header__text-pgh{
+  width: 80%;
+  font-size: 20px;
+  line-height: 2;
+  margin: 8% 0 10%;
+}
+
+.header__btn{
+  text-decoration: none;
+  color: #fff;
+  background-color: #207dff;
+  padding: 3% 4%;
+  border-radius: 5px;
+  box-shadow: 0 10px 7px #129156;
+}
+
+.header__videobox{
+  width: 45%;
+}
+
+.videobox__video{
+  /* background-image: url("../img/header_bg.jpeg"); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("../img/viewbox.JPG");
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  float: right;
+  border: 1px solid;
+  border-radius: 2%;
+  border-color: #207dff;
+  margin: auto;
+}
+
+.play-button{
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 10px 7px #dedede;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+
+}
+
+.videobox__video img{
+  width: 100%;
+  height: 100%;
+}
+
+/* Полезность бадминтона */
+
+.health{
+  text-align: center;
+}
+
+.block__title{
+  margin: 0 auto 5%;
+  text-align: center;
+  width: 40%;
+}
+
+.block__title h2{
+  font-family: 'robotobold';
+  font-size: 35px;
+}
+
+.block__title h3, .block__title p{
+  color: #bbc7cd;
+  line-height: 1.5;
+}
+
+.health__content{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6%;
+}
+
+.health__item{
+  width: 30%;
+  text-align: center;
+}
+
+.health__btn{
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1de9b6;
+  padding: 1.8% 2%;
+  box-shadow: 0 10px 7px #dedede;
+}
+
+.health__item p{
+  color: #78909c;
+  line-height: 1.5;
+}
+
+.stat{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+
+.stat-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.stat-one{
+  background-color: #80d8ff;
+}
+
+.stat-two{
+  background-color: #82b1ff;
+}
+
+.stat-three{
+  background-color: #b388ff;
+}
+
+.stat-four{
+  background-color: #ea80fc;
+}
+
+.stat__img{
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat__img-1 img{
+  width: 90%;
+}
+
+.stat__img-2 img, .stat__img-3 img, .stat__img-4 img{
+  width: 60%;
+}
+
+.stat__text{
+  color: #fff;
+  line-height: 0.4;
+}
